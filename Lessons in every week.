@@ -1,0 +1,100 @@
+#Створюємо розклад на цілий тиждень
+class LessonMonday:
+#команда селф
+    def __init__(self, mounth, number, time, number_lesson, onelesson, twolesson, theelesson, fourlesson, fivelesson, sixelesson, sevenlesson):
+        self.mounth = mounth
+        self.number = number
+        self.time = time
+        self.number_lesson = number_lesson
+        self.onelesson = onelesson
+        self.twolesson = twolesson
+        self.theelesson = theelesson
+        self.fourlesson = fourlesson
+        self.fivelesson = fivelesson
+        self.sixelesson = sixelesson
+        self.sevenlesson = sevenlesson
+    def display_info(self):
+        print(f"mounth: {self.mounth}, number: {self.number}, time: {self.time}, number_lesson: {self.number_lesson}, onelesson: {self.onelesson}, twolesson: {self.twolesson}, theelesson: {self.theelesson}, fourlesson: {self.fourlesson}, fivelesson: {self.fivelesson}, sixelesson: {self.sixelesson}, sevenlesson: {self.sevenlesson}")
+
+lessonMonday1 = LessonMonday("November", 4, 8_00, 7, "Алгебра", "Фізика", "Українська", "Зарубіжна", "Англіська", "Інформатика", "Фізкультура")
+lessonMonday1.display_info()
+#розклад на  вівторок
+class LessonTuesday:
+    def __init__(self, number, number_lesson, onelesson, twolesson, theelesson, fourlesson, fivelesson, sixelesson, sevenlesson):
+        self.number = number
+        self.number_lesson = number_lesson
+        self.onelesson = onelesson
+        self.twolesson = twolesson
+        self.theelesson = theelesson
+        self.fourlesson = fourlesson
+        self.fivelesson = fivelesson
+        self.sixelesson = sixelesson
+        self.sevenlesson = sevenlesson
+
+    def display(self):
+        print(f"number: {self.number}, number_lesson: {self.number_lesson}, onelesson: {self.onelesson}, twolesson: {self.twolesson}, theelesson: {self.theelesson}, fourlesson: {self.fourlesson}, fivelessson: {self.fivelesson}, sixelesson: {self.sixelesson}, sevenlesson: {self.sevenlesson}")
+
+LessonTuesday1 = LessonTuesday(5, 7, "Геометрія", "Хімія", "Література", "Фізкультура", "Інформатика", "Технології", "Технології")
+LessonTuesday1.display()
+#розклад на середу
+class LessonWednesday:
+    def __init__(self, number_lesson, number, onelesson, twolesson, theelesson, fourlesson, fivelesson, sixelesson, sevenlesson):
+        self.number_lesson = number_lesson
+        self.number = number
+        self.onelesson = onelesson
+        self.twolesson = twolesson
+        self.theelesson = theelesson
+        self.fourlesson = fourlesson
+        self.fivelesson = fivelesson
+        self.sixelesson = sixelesson
+        self.sevenlesson = sevenlesson
+
+    def display(self):
+        print(f"number_lesson: {self.number_lesson}, number: {self.number}, onelesson: {self.onelesson}, twolesson: {self.twolesson}, theelesson: {self.theelesson}, fourlesson: {self.fourlesson}, fivelesson: {self.fivelesson}, sixelesson: {self.sixelesson}, sevenlesson: {self.sevenlesson}")
+
+LessonWednesday1 = LessonWednesday(7, 7, "Історія", "Біологія", "Англіська", "Фізика", "Інформатика", "Захист_України", "Захист_України")
+LessonWednesday1.display()
+#розклад на четвер
+class LessonThursday:
+    def __init__(self, number, number_lesson, onelesson, twolesson, theelesson, fourlesson, fivelesson, sixelesson, sevenlesson):
+        self.number = number
+        self.number_lesson = number_lesson
+        self.onelesson = onelesson
+        self.twolesson = twolesson
+        self.theelesson = theelesson
+        self.fourlesson = fourlesson
+        self.fivelesson = fivelesson
+        self.sixelesson = sixelesson
+        self.sevenlesson = sevenlesson
+# зміщуємо інформацію
+    def display(self):
+        print(f"number: {self.number}, number_lesson: {self.number_lesson}, onelesson: {self.onelesson}, twolesson: {self.twolesson}, theelesson: {self.theelesson}, fourlesson: {self.fourlesson}, fivelesson: {self.fivelesson}, sixelesson: {self.sixelesson}, sevenlesson: {self.sevenlesson}")
+
+LessonThursday1 = LessonThursday(8, 7, "Алгебра", "Географія", "Українська", "Інформатика", "Історія", "Фізкультура", "Громадянська")
+LessonThursday1.display()
+#розклад на п'ятницю
+class LessonFriday:
+    def __init__(self, number, number_lesson, onelesson, twolesson, theelesson, fourlesson, fivelesson, sixelesson, sevenlesson):
+        self.number = number
+        self.number_lesson = number_lesson
+        self.onelesson = onelesson
+        self.twolesson = twolesson
+        self.theelesson = theelesson
+        self.fourlesson = fourlesson
+        self.fivelesson = fivelesson
+        self.sixelesson = sixelesson
+        self.sevenlesson = sevenlesson
+#зміщуємо інформацію про цей розклад
+    def display(self):
+        print(f"number: {self.number}, number_lesson: {self.number_lesson}, onelesson: {self.onelesson}, twolesson: {self.twolesson}, theelesson: {self.theelesson}, fourlesson: {self.fourlesson}, fivelesson: {self.fivelesson}, sixelesson: {self.sixelesson}, sevenlesson: {self.sevenlesson}")
+
+LessonFriday1 = LessonFriday
+LessonFriday1.display()
+#все
+#розклад на тиждень успішно виконаний
+#аспмирроп
+#існує 5 класів
+#в кожному з них
+#розміщена певна інформація
+#використано
+#магічний метод
